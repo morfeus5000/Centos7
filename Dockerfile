@@ -7,8 +7,6 @@ VOLUME /bin
 
 ADD centos-7-docker.tar.xz /
 
-RUN yum update && yum install open-ssh-server
-
 LABEL org.label-schema.schema-version = "1.0" \
     org.label-schema.name="CentOS Base Image" \
     org.label-schema.vendor="CentOS" \
